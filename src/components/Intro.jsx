@@ -6,10 +6,10 @@ class Intro extends Component {
     return (
       <Container className="pt-5">
         <Row className="m-5">
-          <Col className="p-5">
+          <Col md="5" sm="12" className="p-2 p-md-3 p-lg-4">
             <img src="img/me/image1.jpg" className="rounded-circle img-thumbnail" alt="Me" />
           </Col>
-          <Col className="p-5">
+          <Col md="7" sm="12" className="p-2 p-md-3 p-lg-4">
             <h1 className="mb-4">Hi, I'm Tina</h1>
             <h2 className="mb-4">A software developer in the making...</h2>
             <p className="">
