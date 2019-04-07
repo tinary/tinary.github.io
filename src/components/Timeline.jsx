@@ -69,9 +69,10 @@ class Timeline extends Component {
               <h3 className="title">Data Analyst, 2015 - 2017</h3>
               <p className="description">
                 <i>My first out of school full-time career starts here! </i>
-                I worked at Christie Digital analyzed large volumes of data and created reports to support
-                management decisions on warranty sales and services. Part of my role was to ensure the
-                accuracy of the data within the database. I’ve gained strong data mining skills throughout this job.
+                I worked at <a href="https://www.christiedigital.com/en-us" target="_blank">Christie Digital</a>
+                . analyzed large volumes of data and created reports to support management decisions on warranty
+                sales and services. Part of my role was to ensure the accuracy of the data within the database.
+                I’ve gained strong data mining skills throughout this job.
               </p>
             </div>
           </div>
@@ -84,9 +85,10 @@ class Timeline extends Component {
               <h3 className="title">Programmer Analyst, 2017 - present</h3>
               <p className="description">
                 <i>Transition my skills to become a Developer! </i>
-                At Christie Digital, I build and support small and large software applications
-                that being used from global users across departments and manufacture production.
-                My job involves designing, developing web applications and SQL database.
+                At <a href="https://www.christiedigital.com/en-us" target="_blank">Christie Digital</a>
+                , I build and support small and large software applications that being used from global
+                users across departments and manufacture production. My job involves designing, developing
+                web applications and SQL database.
               </p>
             </div>
           </div>
