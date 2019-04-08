@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import {
   Collapse, Navbar, NavbarToggler,
   Nav, NavItem, NavLink
@@ -27,13 +28,13 @@ class MenuBar extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+                <a className="nav-link" href="#Intro">Home</a>
             </NavItem>
             <NavItem>
-              <NavLink href="intro.jsx">About</NavLink>
+                <a className="nav-link" href="#Timeline">About</a>
             </NavItem>
             <NavItem>
-              <NavLink href="Contact.jsx">Contact</NavLink>
+                <a className="nav-link" href="#Contact">Contact</a>              
             </NavItem>
           </Nav>
         </Collapse>

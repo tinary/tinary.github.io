@@ -31,8 +31,10 @@ class Timeline extends Component {
 
   render() {
     return (
-      <Container>
-      <h1 className="text-center m-5">Get To Know Me</h1>
+      <Container id="Timeline">
+       <div className="p-3">
+         <h1 className="text-center m-5">Get To Know Me</h1>
+       </div>
         <div className="main-timeline">
           <div className="timeline">
             <div className="timeline-icon">
