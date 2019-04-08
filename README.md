@@ -1,1 +1,1 @@
-# tinary-react
+# tinary.github.io
