@@ -5,15 +5,16 @@ class Intro extends Component {
   componentDidMount() {
     document.addEventListener('DOMContentLoaded', function(event) {
       const textArray = ["I build technology.", "I develop web applications.",
-      "I design beautiful things.", "I create user-friendly interface.",
-      "I make things happen."];
+                         "I design beautiful things.", "I create user-friendly interface.",
+                         "I make things happen."];
       function typeWriter(text, i, fnCallback) {
         if (i < (text.length)) {
           document.querySelector("h5").innerHTML = text.substring(0, i + 1);
           setTimeout(function() {
             typeWriter(text, i + 1, fnCallback)
           }, 70);
-        } else if (typeof fnCallback == 'function') {
+        }
+        else if (typeof fnCallback == 'function') {
           setTimeout(fnCallback, 800);
         }
       }
@@ -23,7 +24,7 @@ class Intro extends Component {
             StartTextAnimation(0);
           }, 2000);
         }
-        if (i < textArray[i].length) {
+        else if (i < textArray[i].length) {
           typeWriter(textArray[i], 0, function() {
             StartTextAnimation(i + 1);
           });
