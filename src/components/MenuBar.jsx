@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 import {
   Collapse, Navbar, NavbarToggler,
   Nav, NavItem, NavLink
@@ -34,7 +33,7 @@ class MenuBar extends Component {
                 <a className="nav-link" href="#Timeline">About</a>
             </NavItem>
             <NavItem>
-                <a className="nav-link" href="#Contact">Contact</a>              
+                <a className="nav-link" href="#Contact">Contact</a>
             </NavItem>
           </Nav>
         </Collapse>
