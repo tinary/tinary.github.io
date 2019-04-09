@@ -71,8 +71,8 @@ class Timeline extends Component {
               <h3 className="title">Data Analyst, 2015 - 2017</h3>
               <p className="description">
                 <i>My first out of school full-time career starts here! </i>
-                I worked at <a href="https://www.christiedigital.com/en-us" target="_blank">Christie Digital</a>
-                . analyzed large volumes of data and created reports to support management decisions on warranty
+                I worked at <a href="https://www.christiedigital.com/en-us" target="_blank">Christie Digital </a>
+                analyzed large volumes of data and created reports to support management decisions on warranty
                 sales and services. Part of my role was to ensure the accuracy of the data within the database.
                 I’ve gained strong data mining skills throughout this job.
               </p>
