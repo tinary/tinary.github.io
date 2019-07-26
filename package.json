@@ -6,7 +6,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/tinary/tinary.github.io"
+    "url": "git+https://github.com/tinary/tinary.github.io.git"
   },
   "engines": {
     "node": "8.x"
@@ -42,5 +42,11 @@
     "start": "webpack-dev-server --colors --hot",
     "build": "webpack --progress --colors",
     "lint": "eslint --ext .js --ext .jsx src"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tinary/tinary.github.io/issues"
+  },
+  "homepage": "https://github.com/tinary/tinary.github.io#readme",
+  "main": "app.js",
+  "license": "ISC"
 }

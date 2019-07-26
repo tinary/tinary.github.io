@@ -84,7 +84,7 @@ class Timeline extends Component {
               <i className="fas fa-rocket" />
             </div>
             <div className="inner-content">
-              <h3 className="title">Programmer Analyst, 2017 - present</h3>
+              <h3 className="title">Full Stack Developer, 2017 - present</h3>
               <p className="description">
                 <i>Transition my skills to become a Developer! </i>
                 At <a href="https://www.christiedigital.com/en-us" target="_blank">Christie Digital</a>
