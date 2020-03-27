@@ -33,7 +33,7 @@ class Contact extends Component {
         <Row className="m-5">
           {this.social.map(media => (
             <Col key={media.name} xs="6" sm="3">
-              <a href={media.url} title={media.name} className="social-icon-link">
+              <a href={media.url} title={media.name} className="social-icon-link" target="_blank">
                 <span className="social-icon-wrapper">
                   <i className={`${media.icon} social-icon`} />
                 </span>
