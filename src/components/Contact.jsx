@@ -18,9 +18,9 @@ class Contact extends Component {
       url: 'https://github.com/tinary',
       icon: 'fab fa-github fa-4x'
     }, {
-      name: 'Behance',
-      url: 'https://www.behance.net/tinarywang',
-      icon: 'fab fa-behance fa-4x'
+      name: 'Twitter',
+      url: 'https://twitter.com/tweetytinar',
+      icon: 'fab fa-twitter fa-4x'
     }];
   }
 
